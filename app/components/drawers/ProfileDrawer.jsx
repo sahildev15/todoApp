@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useRef } from 'react'
-import { useAuth } from '../context/AuthContext'
+import { useAuth } from '../../context/AuthContext'
 import { FaTimes, FaEdit, FaCamera, FaUser, FaCheckCircle, FaClock, FaCalendarAlt, FaSpinner, FaUpload } from 'react-icons/fa'
 
 export default function ProfileDrawer({ isOpen, onClose }) {

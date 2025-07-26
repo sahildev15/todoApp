@@ -1,6 +1,6 @@
 'use client'
 
-import { useNotifications } from '../context/NotificationContext'
+import { useNotifications } from '../../context/NotificationContext'
 import { FaTimes, FaCheck, FaTrash, FaBell } from 'react-icons/fa'
 
 export default function NotificationDrawer({ isOpen, onClose }) {

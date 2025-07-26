@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { useAuth } from '../context/AuthContext'
-import UserDrawer from '../components/UserDrawer'
+import UserDrawer from '../components/drawers/UserDrawer'
 import { FaUsers, FaSearch, FaUser, FaCheckCircle, FaClock, FaCalendarAlt, FaSignOutAlt } from 'react-icons/fa'
 
 export default function AdminPage() {
